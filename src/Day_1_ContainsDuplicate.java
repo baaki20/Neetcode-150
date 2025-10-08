@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ContainsDuplicate {
+public class Day_1_ContainsDuplicate {
     public static boolean containsDuplicate(int[] nums){
         Set<Integer> uniqueNums = new HashSet<>();
 
