@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,7 +18,13 @@ public class Main {
         */
 
         // Two sums
+        /*
         int[] twosums = Day_3_TwoSum.twoSum(new int[]{2, 3, 11, 15, 7}, 9);
         System.out.println(Arrays.toString(twosums));
+        */
+
+        // Anagram Group
+        List<List<String>> anagramG = Day_4_AnagramGroup.anagramGroups(new String[]{"hel", "leh", "sur", "rus"});
+        System.out.println(anagramG);
     }
 }
